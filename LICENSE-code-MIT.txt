@@ -1,0 +1,2 @@
+MIT License — code in code/
+Copyright (c) 2026 Sanker, V.
