@@ -1,0 +1,48 @@
+{
+  "n_unique_specimens": 1152,
+  "n_supervised": 342,
+  "n_metastatic_positive": 80,
+  "canonical_specimen_authority_supervised": 142,
+  "canonical_metastatic_positive": 33,
+  "f943_graph_specimens": 943,
+  "n_portals": {
+    "CZI Cell x Gene / HTAN (HsapDv study_id)": 266,
+    "HTAN HTAPP": 64,
+    "CZI / HTAN open scRNA portal (donor-level ID)": 12
+  },
+  "n_indications_supervised": {
+    "TCGA-BRCA": 110,
+    "TCGA-COAD": 62,
+    "TCGA-KIRC": 58,
+    "TCGA-LUAD": 30,
+    "nan": 22,
+    "TCGA-SKCM": 20,
+    "TCGA-PRAD": 20,
+    "TCGA-OV": 10,
+    "TCGA-HNSC": 4,
+    "TCGA-GBM": 2,
+    "TCGA-LUSC": 2,
+    "TCGA-STAD": 2
+  },
+  "n_indications_with_positive": {
+    "TCGA-BRCA": 60,
+    "TCGA-SKCM": 20
+  },
+  "leakage_mode_counts": {
+    "primary_labeled": 919,
+    "unlabeled": 153,
+    "portal_indication_coupled": 60,
+    "metastatic_labeled": 20
+  },
+  "source_pack_counts": {
+    "f943_all": 943,
+    "specimen_authority": 171,
+    "graphs_manifest_287": 37,
+    "f943_lr_merged": 1
+  },
+  "cellxgene_catalog": {
+    "n_datasets": 219,
+    "n_unique_diseases": 52
+  },
+  "manifest_rows_ingested": 4559
+}

@@ -1,0 +1,26 @@
+{
+  "registry_unique_specimens": 1152,
+  "registry_supervised": 342,
+  "canonical_task_auroc": 0.6736169029747011,
+  "canonical_metadata_ceiling": 0.9980539338337503,
+  "canonical_confound_fraction": 1.0,
+  "headline_scale_path": "f142_d_parity_symlink_parity",
+  "headline_scale_task_auroc": 0.779809657520655,
+  "headline_scale_confound_fraction": 1.0,
+  "headline_scale_parity_gate_pass": true,
+  "signatures_tested": 40,
+  "signatures_surviving_correction": 30,
+  "signatures_surviving_correction_exploratory": 31,
+  "signature_correction_criteria": {
+    "primary_strict": {
+      "min_corrected_auroc": 0.6,
+      "max_naive_minus_corrected": 0.1
+    },
+    "exploratory": {
+      "min_corrected_auroc": 0.55,
+      "max_naive_minus_corrected": 0.15
+    }
+  },
+  "tcga_bulk_positive_control": 0.7551020408163265,
+  "field_law_statement": "Across integrated multi-drive assets (C/D/E/F), apparent scRNA metastasis predictability is routinely exceeded by metadata/provenance ceilings (confound fraction\u22481); within-indication scRNA signal is weak/underpowered, while balanced TCGA bulk primary\u2013metastatic pairs (e.g. BRCA 7+7) retain detectable within-indication signal."
+}

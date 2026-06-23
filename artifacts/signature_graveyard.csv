@@ -1,0 +1,41 @@
+signature_id,name,source,type,naive_oof_auroc,corrected_within_indication_auroc,corrected_indication,naive_minus_corrected,survives_correction_strict,survives_correction_exploratory,survives_correction
+emt_core,EMT core (VIM/SNAI/TWIST/ZEB/CDH),Taube et al. 2010; Ye & Weinberg 2015,gene_list,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True
+metastasis_seed,Metastasis seed & prep (PTGS2/MMP9/VCAN),Gupta & Massagué 2006 review,gene_list,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True
+hypoxia_hif,Hypoxia / HIF targets,MSigDB HALLMARK_HYPOXIA (subset),gene_list,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True
+angiogenesis,Angiogenesis program,MSigDB HALLMARK_ANGIOGENESIS (subset),gene_list,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True
+inflammatory_response,Inflammatory response,MSigDB HALLMARK_INFLAMMATORY_RESPONSE,gene_list,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True
+tnf_nfkb,TNF-α/NFκB signaling,MSigDB HALLMARK_TNFA_NFKB,gene_list,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True
+interferon_gamma,IFN-γ response,MSigDB HALLMARK_INTERFERON_GAMMA,gene_list,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True
+complement,Complement cascade,MSigDB HALLMARK_COMPLEMENT,gene_list,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True
+coagulation,Coagulation / platelet,MSigDB HALLMARK_COAGULATION,gene_list,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True
+epithelial_mesenchymal_msigdb,EMT MSigDB hallmark,MSigDB HALLMARK_EMT,gene_list,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True
+melanoma_metastasis,Melanoma metastasis (MITF/AXL switch),Hugo et al. 2013; Tsoi et al. 2018,gene_list,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True
+breast_metastasis_lung,Breast lung metastasis seeding,Minn et al. 2005 (subset),gene_list,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True
+tgf_beta,TGF-β signaling,KEGG TGF-beta,gene_list,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True
+wnt_beta_catenin,Wnt/β-catenin,KEGG Wnt,gene_list,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True
+jak_stat,JAK-STAT cytokine,KEGG JAK-STAT,gene_list,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True
+tme_t_cell,T cell infiltration,TME literature proxy,cell_type_composition,0.4264664998609953,0.3986013986013986,TCGA-BRCA,0.02786510125959668,False,False,False
+tme_nk,NK cell infiltration,TME literature proxy,cell_type_composition,0.4924937447873228,0.3977272727272727,TCGA-BRCA,0.09476647206005007,False,False,False
+tme_treg,Regulatory T cells,TME suppression literature,cell_type_composition,0.44384209063108143,0.40646853146853146,TCGA-BRCA,0.037373559162549974,False,False,False
+tme_macrophage,Macrophage / monocyte,TME literature proxy,cell_type_composition,0.551987767584098,0.29108391608391604,TCGA-BRCA,0.2609038515001819,False,False,False
+tme_dc,Dendritic cells,TME antigen presentation,cell_type_composition,0.6494300806227412,0.5795454545454546,TCGA-BRCA,0.06988462607728663,False,True,False
+tme_b_cell,B cell infiltration,TME literature proxy,cell_type_composition,0.5387823185988323,0.6031468531468531,TCGA-BRCA,-0.06436453454802082,True,True,True
+tme_fibroblast,CAF / fibroblast stroma,Stromal literature proxy,cell_type_composition,0.5745065332221295,0.24213286713286716,TCGA-BRCA,0.33237366608926233,False,False,False
+tme_endothelial,Endothelial / vascular,Angiogenesis TME proxy,cell_type_composition,0.6042535446205171,0.2840909090909091,TCGA-BRCA,0.32016263552960794,False,False,False
+tme_epithelial,Epithelial tumor fraction,TME composition proxy,cell_type_composition,0.4715040311370587,0.47377622377622364,TCGA-BRCA,-0.0022721926391649494,False,False,False
+tme_myeloid,Myeloid compartment,TME literature proxy,cell_type_composition,0.5339171531832083,0.4493006993006993,TCGA-BRCA,0.08461645388250899,False,False,False
+gsea_kegg_protein_digestion_and_absorption,GSEA KEGG: Protein digestion and absorption,Internal GSEA prerank (NES=-1.65),gene_list,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True
+gsea_kegg_nicotinate_and_nicotinamide_metabolism,GSEA KEGG: Nicotinate and nicotinamide metabolism,Internal GSEA prerank (NES=-1.56),gene_list,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True
+gsea_kegg_metabolism_of_xenobiotics_by_cytochrome_p450,GSEA KEGG: Metabolism of xenobiotics by cytochrome P450,Internal GSEA prerank (NES=-1.51),gene_list,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True
+gsea_kegg_hippo_signaling_pathway,GSEA KEGG: Hippo signaling pathway,Internal GSEA prerank (NES=-1.45),gene_list,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True
+gsea_kegg_taste_transduction,GSEA KEGG: Taste transduction,Internal GSEA prerank (NES=-1.43),gene_list,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True
+gsea_kegg_yersinia_infection,GSEA KEGG: Yersinia infection,Internal GSEA prerank (NES=1.42),gene_list,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True
+gsea_kegg_progesterone_mediated_oocyte_maturation,GSEA KEGG: Progesterone-mediated oocyte maturation,Internal GSEA prerank (NES=1.41),gene_list,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True
+gsea_kegg_t_cell_receptor_signaling_pathway,GSEA KEGG: T cell receptor signaling pathway,Internal GSEA prerank (NES=1.40),gene_list,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True
+gsea_kegg_pd_l1_expression_and_pd_1_checkpoint_pathway_in_,GSEA KEGG: PD-L1 expression and PD-1 checkpoint pathway in cancer,Internal GSEA prerank (NES=1.39),gene_list,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True
+gsea_kegg_aminoacyl_trna_biosynthesis,GSEA KEGG: Aminoacyl-tRNA biosynthesis,Internal GSEA prerank (NES=1.38),gene_list,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True
+pan_de_top25,Pan-cancer DE top-25 (bulk paired),pan_metastatic_vs_primary_pancancer_v2.csv,gene_list,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True
+pan_de_top50,Pan-cancer DE top-50 (bulk paired),pan_metastatic_vs_primary_pancancer_v2.csv,gene_list,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True
+pan_de_top100,Pan-cancer DE top-100 (bulk paired),pan_metastatic_vs_primary_pancancer_v2.csv,gene_list,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True
+layer3_pan_projection,Layer-3 pan-cancer projection (mean),Internal integrated layer3_features,layer3_de,0.45371142618849036,0.45629370629370636,TCGA-BRCA,-0.002582280105215995,False,False,False
+block_mean_full_tme,Full block-mean TME vector (comparator),Headline block_mlp input space,block_mean_comparator,0.6310814567695302,0.6048951048951049,TCGA-BRCA,0.026186351874425307,True,True,True

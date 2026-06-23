@@ -1,0 +1,67 @@
+{
+  "generated_utc": "2026-06-06T13:19:25.861932+00:00",
+  "strategy": "d_graph_symlink_parity",
+  "priority_over": "f943_canonical_natmi_rebuild (~537 GB / 28\u201369 h)",
+  "headline_cohort": "integrated_specimen_authority 142/33",
+  "symlink_step_rc": 0,
+  "symlink_verification": {
+    "n_supervised": 142,
+    "n_parity_ok": 142,
+    "all_parity_ok": true,
+    "link_dir": "E:\\MetastaticEvolution\\artifacts\\layer1\\f142_d_parity_graphs",
+    "d_graphs": "E:\\MetastaticEvolution\\artifacts\\layer1\\graphs",
+    "details_sample": [
+      {
+        "graph_file": "graph_0000.pt",
+        "dst_exists": true,
+        "src_exists": true,
+        "is_symlink": true,
+        "size_match": true
+      },
+      {
+        "graph_file": "graph_0001.pt",
+        "dst_exists": true,
+        "src_exists": true,
+        "is_symlink": true,
+        "size_match": true
+      },
+      {
+        "graph_file": "graph_0002.pt",
+        "dst_exists": true,
+        "src_exists": true,
+        "is_symlink": true,
+        "size_match": true
+      },
+      {
+        "graph_file": "graph_0003.pt",
+        "dst_exists": true,
+        "src_exists": true,
+        "is_symlink": true,
+        "size_match": true
+      },
+      {
+        "graph_file": "graph_0004.pt",
+        "dst_exists": true,
+        "src_exists": true,
+        "is_symlink": true,
+        "size_match": true
+      }
+    ]
+  },
+  "parity_metrics": {
+    "mean_auroc": 0.779809657520655,
+    "oof_auroc": null,
+    "n_supervised": 142,
+    "n_positive": 33
+  },
+  "headline_d_metrics": {
+    "mean_auroc": 0.7683038061682563
+  },
+  "parity_delta_vs_headline": 0.011505851352398677,
+  "parity_gate_pass": true,
+  "feasibility": {
+    "disk_cost_gb": 0,
+    "time_cost": "minutes (symlinks) + ~30\u201360 min train",
+    "replaces": "f943_canonical_natmi rebuild (537 GB, 28\u201369 h)"
+  }
+}

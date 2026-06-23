@@ -1,0 +1,12 @@
+,TCGA-BRCA,TCGA-COAD,TCGA-GBM,TCGA-HNSC,TCGA-KIRC,TCGA-LUAD,TCGA-LUSC,TCGA-PRAD,TCGA-SKCM,TCGA-STAD,unknown
+TCGA-BRCA,0.9423076923076923,,,,,,,,,,
+TCGA-COAD,,,,,,,,,,,
+TCGA-GBM,,,,,,,,,,,
+TCGA-HNSC,,,,,,,,,,,
+TCGA-KIRC,,,,,,,,,,,
+TCGA-LUAD,,,,,,,,,,,
+TCGA-LUSC,,,,,,,,,,,
+TCGA-PRAD,,,,,,,,,,,
+TCGA-SKCM,,,,,,,,,,,
+TCGA-STAD,,,,,,,,,,,
+unknown,,,,,,,,,,,

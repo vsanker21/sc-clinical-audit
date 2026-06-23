@@ -1,0 +1,8 @@
+{
+  "canonical_arm": "confound_audit (specimen_authority 142/33)",
+  "generalization": "archetype_a (multi-drive registry + transport + signatures + TCGA)",
+  "confound_audit_report": "D:\\MetastaticEvolution\\artifacts\\scientific_analyses\\confound_audit\\confound_audit_report.json",
+  "archetype_a_report": "D:\\MetastaticEvolution\\artifacts\\scientific_analyses\\archetype_a\\archetype_a_report.json",
+  "manuscript_word": "D:\\MetastaticEvolution\\artifacts\\scientific_analyses\\manuscript_word\\manuscript_main.docx",
+  "relation": "Archetype A embeds confound_audit OOF estimand as canonical pack; adds field-breadth registry, scale probes, and signature graveyard."
+}
